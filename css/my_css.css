@@ -1,0 +1,22 @@
+
+.disabledbutton {
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+/* posição do botão salvar nas observçoes, ainda não está legal */
+.btn-base {
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+  } 
+  @media only screen and (max-width: 768px) {
+    .btn-base {
+      position: initial;
+      bottom: initial;
+      right: initial;
+    } 
+    .modal {
+    overflow-y:auto;
+      }
+  } 
